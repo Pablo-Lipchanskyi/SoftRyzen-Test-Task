@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = 'https://64c8efdcb2980cec85c19d84.mockapi.io/event'
+axios.defaults.baseURL = 'https://64c8efdcb2980cec85c19d84.mockapi.io'
 
 export const fetchEvents = async () => {
     try {
